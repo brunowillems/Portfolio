@@ -1,0 +1,32 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.mix.js",
+  "scripts": {
+    "start": "mix",
+    "watch": "mix watch",
+    "poll": "mix --production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunowillems/Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/brunowillems/Portfolio/issues"
+  },
+  "homepage": "https://github.com/brunowillems/Portfolio#readme",
+  "devDependencies": {
+    "laravel-mix": "^6.0.49",
+    "postcss-custom-properties": "^14.0.4",
+    "postcss-for": "^2.1.1"
+  },
+  "dependencies": {
+    "mix": "^0.0.1",
+    "postcss-preset-env": "^10.1.6"
+  }
+}

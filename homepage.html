@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage - Bruno Willems</title>
+    <link rel="icon" type="image/png" href="../assets/favicons/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="../assets/favicons/favicon.svg" />
+    <link rel="shortcut icon" href="../assets/favicons/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="../assets/favicons/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="stylesheet" href="../build/main.css">
+</head>
+
+<body>
+    <header class="header" role="banner">
+        <h2 class="header__title">
+            Bruno Willems
+        </h2>
+
+        <nav class="header__nav" role="navigation" aria-label="Main Navigation">
+            <a class="header__nav--item" role="link" href="homepage.html" aria-current="page">Home</a>
+            <a class="header__nav--item" role="link" href="about.html">About</a>
+            <a class="header__nav--item" role="link" href="contact.html">Contact</a>
+            <a class="header__nav--item" role="link" href="projectspage.html">Projects</a>
+        </nav>
+    </header>
+
+    <main class="block" role="main">
+        <section class="block__left" aria-labelledby="block-left-title">
+            <h1 class="block__left--title" id="block-left-title">Hello, I am Bruno Willems</h1>
+
+            <p class="block__left--text">
+                Een front-end developer is de architect van de gebruikerservaring, </p>
+            <p class="block__left--text">waar design en functionaliteit </p>
+            <p class="block__left--text">
+                samenkomen tot een
+                naadloze digitale beleving.
+            </p>
+
+            <p class="block__left--text">
+                Student on Artevelde Hogeschool,
+            </p>
+            <p class="block__left--text">
+                located at Ghent, Belgium.
+            </p>
+        </section>
+
+        <section class="block__right" aria-labelledby="block-right-image">
+            <img src="../assets/images/eigenaar.jpg" alt="Portrait of Bruno Willems" id="block-right-image">
+        </section>
+
+        <section>
+            <button class="button--about" type="button" id="button" aria-haspopup="dialog" aria-expanded="false">
+                Have fun
+            </button>
+
+            <dialog class="dialog" id="dialog" aria-labelledby="dialog-title">
+                <div class="dialog__content">
+                    <h2 id="dialog-title">Have fun</h2>
+                    <p>Please enjoy your stay on my portfolio!</p>
+                    <button class="dialog__close" type="button" aria-label="Close dialog">Close</button>
+                </div>
+            </dialog>
+        </section>
+    </main>
+
+    <footer class="footer" role="contentinfo">
+        <p class="footer--text">Created by Bruno Willems --- Project for Artevelde Hogeschool</p>
+    </footer>
+    <script src="../build/app.js"></script>
+    <script src="../src/scripts/popover-about.js"></script>
+</body>
+
+</html>
