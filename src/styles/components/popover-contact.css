@@ -1,0 +1,39 @@
+.dialog__contact {
+    position: sticky;
+    top: 135%;
+    left: 26%;
+    transform: translate(-50%, -50%);
+    background-color: var(--color-bg);
+    border: 0.125rem solid var(--color-border);
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.2);
+    padding: 1.25rem;
+    width: 18.75rem;
+    max-width: 90%;
+    border-radius: 0.5rem;
+    z-index: 1000;
+    display: none; /* Hidden by default */
+}
+
+.dialog__contact[open] {
+    display: block; /* Show dialog when open */
+}
+
+.dialog__contact--content {
+    text-align: center;
+    color: var(--color-text);
+}
+
+.dialog__contact--close {
+    background-color: var(--color-title);
+    color: var(--color-text);
+    border: none;
+    padding: 0.625rem 1.25rem;
+    margin-top: 1.25rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.dialog__close:hover {
+    background-color: var(--color-text);
+    color: var(--color-bg);
+}

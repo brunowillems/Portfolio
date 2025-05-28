@@ -1,0 +1,25 @@
+.paragraph {
+    border: 0.125rem solid var(--color-border);
+    margin-bottom: 0.625rem;
+}
+
+.paragraph--text {
+    color: var(--color-text);
+    padding: 0.625rem;
+}
+
+.paragraph--list {
+    margin-left: 1rem;
+    color: var(--color-text);
+}
+
+@media screen and (min-width: 64rem) {
+    .paragraph {
+        display: grid;
+        grid-template-columns: subgrid;
+    }
+
+    .paragraph--text {
+        grid-column: span 1;
+    }
+}

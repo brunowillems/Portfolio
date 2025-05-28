@@ -1,0 +1,15 @@
+.footer {
+    background-color: var(--color-text);
+}
+
+.footer--text {
+    color: var(--color-title);
+}
+
+@media screen and (min-width: 64rem) {
+    .footer {
+        margin-top: 1.875rem;
+        padding: 0.625rem;
+        text-align: center;
+    }
+}

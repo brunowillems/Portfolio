@@ -1,0 +1,97 @@
+.contact__mail {
+    border: 0.125rem solid var(--color-border);
+    padding: 0.3125rem;
+    margin: 0.625rem;
+    padding-bottom: 1.25rem;
+}
+
+.contact__mail--title {
+    color: var(--color-text);
+}
+
+.contact__mail--link {
+    color: var(--color-border);
+    text-decoration: none;
+}
+.contact__linkedIn {
+    border: 0.125rem solid var(--color-border);
+    padding: 0.3125rem;
+    margin: 0.625rem;
+    padding-bottom: 1.25rem;
+}
+
+.contact__linkedIn--title {
+    color: var(--color-text);
+}
+
+.contact__linkedIn--link {
+    color: var(--color-border);
+    text-decoration: none;
+}
+.contact__github {
+    border: 0.125rem solid var(--color-border);
+    padding: 0.3125rem;
+    margin: 0.625rem;
+    padding-bottom: 1.25rem;
+}
+
+.contact__github--title {
+    color: var(--color-text);
+}
+
+.contact__github--link {
+    color: var(--color-border);
+    text-decoration: none;
+}
+.contact__facebook {
+    border: 0.125rem solid var(--color-border);
+    padding: 0.3125rem;
+    margin: 0.625rem;
+    padding-bottom: 1.25rem;
+}
+
+.contact__facebook--title {
+    color: var(--color-text);
+}
+
+.contact__facebook--link {
+    color: var(--color-border);
+    text-decoration: none;
+}
+
+.contact__phone {
+    border: 0.125rem solid var(--color-border);
+    padding: 0.3125rem;
+    margin: 0.625rem;
+    padding-bottom: 1.25rem;
+}
+
+.contact__phone--title {
+    color: var(--color-text);
+}
+
+.contact__phone--link {
+    color: var(--color-border);
+    text-decoration: none;
+}
+
+@media screen and (min-width: 64rem) {
+    .contact__mail {
+        text-align: center;
+    }
+
+    .contact__phone {
+        text-align: center;
+    }
+    .contact__linkedIn {
+        text-align: center;
+    }
+
+    .contact__github {
+        text-align: center;
+    }
+    
+    .contact__facebook {
+        text-align: center;
+    }
+    }

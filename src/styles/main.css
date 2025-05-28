@@ -1,0 +1,31 @@
+@import url("layout/header.css");
+@import url("components/blocks.css");
+@import url("components/page.css");
+@import url("components/paragraphs.css");
+@import url("components/contact.css");
+@import url("layout/popover.css");
+@import url("components/popover-contact.css");
+@import url("layout/projects.css");
+@import url("layout/footer.css");
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&display=swap');
+
+:root {
+    --color-light: #F7F197;
+    --color-title: yellow;
+    --color-text: darkblue;
+    --color-border: #474306;
+    --color-bg: #FBF8CC;
+    --color-projects-title: blue;
+    color-scheme: light dark;
+}
+
+body {
+  background-color: light-dark(var(--color-text), var(--color-bg));
+  font-family: "Inconsolata", monospace;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+
+    color: light-dark(var(--color-text), var(--color-bg));
+}

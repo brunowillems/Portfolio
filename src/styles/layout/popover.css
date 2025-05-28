@@ -1,0 +1,37 @@
+.dialog {
+    position: fixed;
+    top: 57%;
+    left: -44.5%;
+    transform: translate(-50%, -50%);
+    background-color: var(--color-bg);
+    border: 0.125rem solid var(--color-border);
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.2);
+    width: 18.775rem;
+    max-width: 90%;
+    z-index: 1000;
+    display: none; /* Hidden by default */
+}
+
+.dialog[aria-hidden="false"] {
+    display: block; /* Show when aria-hidden is false */
+}
+
+.dialog__content {
+    text-align: center;
+    color: var(--color-text);
+}
+
+.dialog__close {
+    background-color: var(--color-title);
+    color: var(--color-text);
+    border: none;
+    padding: 0.625rem 1.25rem;
+    margin-top: 0.3125rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.popover__close:hover {
+    background-color: var(--color-text);
+    color: var(--color-bg);
+}

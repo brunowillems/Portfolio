@@ -1,0 +1,25 @@
+.header__title {
+    color: var(--color-text)
+}
+
+.header__nav {
+    border-top: 0.125rem solid var(--color-border);
+    border-bottom: 0.125rem solid var(--color-border);
+    padding: 0.3125rem;
+}
+
+.header__nav--item {
+    text-decoration: none;
+}
+
+@media screen and (min-width: 64rem) {
+    .header__nav {
+        border-top: none;
+        margin-top: -3.125rem;
+        font-size: larger;
+    }
+
+    .header__nav--item {
+        margin-left: 11.5625rem;
+    }
+}
